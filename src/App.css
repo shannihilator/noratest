@@ -31,3 +31,55 @@
     transform: rotate(360deg);
   }
 }
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.card {
+  width: 40%;
+  border: lightblue solid 3px;
+  margin:  5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.btn {
+  width: 70%;
+  height: 40px;
+  margin: 10px 0;
+  background-color: darkgray;
+  border-radius: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.topThree {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.topThree  th {
+  margin: 2px;
+}
+.topThree p {
+  width: 40%;
+  border: black 2px solid;
+
+}
+
+.topThree tr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* border: black 2px solid; */
+}
+table {
+  margin: 0 auto;
+}
+
+.loader {
+  margin:  0 auto;
+}
