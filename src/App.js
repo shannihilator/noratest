@@ -4,11 +4,11 @@ import './App.css';
 import axios from 'axios'
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import Loader from 'react-loader-spinner'
-let USER_TOKEN = process.env.TOKEN;
+let USER_TOKEN = process.env.REACT_APP_TOKEN;
 let URL = 'https://api.salesloft.com/v2/people.json'
 const AuthStr = 'Bearer ' + USER_TOKEN;
 const proxyurl = "https://cors-anywhere.herokuapp.com/";
-
+console.log(USER_TOKEN)
 class App extends Component {
 
   state = {

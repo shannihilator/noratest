@@ -61,25 +61,19 @@
   text-align: center;
 }
 
-.topThree  th {
-  margin: 2px;
-}
-.topThree p {
-  width: 40%;
-  border: black 2px solid;
-
+.topThree  h2 {
+  width: 50%;
+  display: inline-block;
 }
 
-.topThree tr {
+.letterContainer {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  /* border: black 2px solid; */
 }
-table {
-  margin: 0 auto;
+.letterContainer p{
+  width: 50%;
+  border: solid black 2px;
+  font-size: 20px;
 }
-
 .loader {
   margin:  0 auto;
 }

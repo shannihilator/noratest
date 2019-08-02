@@ -24,10 +24,10 @@ function Card(props) {
     const top = values.slice(0, 3);
     const topThree = top.map(el => {
         return (
-            <>
+            <div key={el.key + Math.random()} className='letterContainer'>
                 <p>{el.key}</p>
                 <p>{el.value}</p>
-            </>  
+            </div>  
         )
     })
 
@@ -38,15 +38,13 @@ function Card(props) {
             <p>{person.title}</p>
             <h1>{props.isLoading ? <h1>YEs</h1> : null}</h1>
             <div className="topThree">
-            {props.show && <table>
-                <tr>
-                    <th>Letter</th>
-                    <th>Count</th>
-                </tr>
-                <tr >
+            {props.show && 
+                <div>
+                    <h2>Letters</h2>
+                    <h2>Count</h2>
                     {topThree}
-                </tr>
-            </table>}
+                </div>
+                }
             </div>
         </div>
     )
