@@ -8,7 +8,6 @@ let USER_TOKEN = process.env.REACT_APP_TOKEN;
 let URL = 'https://api.salesloft.com/v2/people.json'
 const AuthStr = 'Bearer ' + USER_TOKEN;
 const proxyurl = "https://cors-anywhere.herokuapp.com/";
-console.log(USER_TOKEN)
 class App extends Component {
 
   state = {
@@ -44,7 +43,7 @@ class App extends Component {
         
     )
     } else {
-      return  <div  ><Loader  className='loader' type="Puff" color="#00BFFF" height="100" width="100"/></div>
+      return  <div style={{display: "flex", justifyContent: "center", marginTop: "10%"}} ><Loader  className='loader' type="Puff" color="#00BFFF" height={300} width={300}/></div>
     }
   }
 }
