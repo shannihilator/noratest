@@ -3,6 +3,8 @@
 # Support Engineer Web App
     
 ## ENV Variables Needed:
+    REACT_APP_TOKEN
+
 In the project directory, you can run:
 ### `npm start`
 
