@@ -16,10 +16,10 @@ describe('<CardContainer />', () => {
         expect(getByText('TestBoss')).toBeTruthy();
 
     })
-
     it('should display the letter count when "show" prop is true', () => {
         const { getByText } = render(<CardContainer person={person} show={true} />)
-        expect(getByText('Letters')).toBeTruthy();
-        expect(getByText('Count')).toBeTruthy();
+        // Most use letter in email and 4 is count
+        expect(getByText('t')).toBeTruthy();
+        expect(getByText('4')).toBeTruthy();
     })
 })

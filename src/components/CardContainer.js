@@ -22,7 +22,7 @@ function Card(props) {
 
     // loop thru and make sure it is a letter
     for(let x = 0; x < letters.length; x++) {
-        if(!letters[x].match(/[a-z]/i)) {
+        if(!letters[x].toLowerCase().match(/[a-z]/i)) {
             // delete  if it is not
             delete hash[letters[x]]
         }

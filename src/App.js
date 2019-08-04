@@ -40,6 +40,7 @@ class App extends Component {
     })
   }
   render() {
+    // conditionally rendering the loader or data
     const {data, metadata} = this.state.people;
     if (data) {
       return (
@@ -56,7 +57,9 @@ class App extends Component {
     )
     } else {
 //       loader while api call is being made
-      return  <div style={{display: "flex", justifyContent: "center", marginTop: "10%"}} ><Loader  className='loader' type="Puff" color="#00BFFF" height={300} width={300}/></div>
+      return  <div style={{display: "flex", justifyContent: "center", marginTop: "10%"}} >
+                  <Loader label="loader" className='loader' type="Puff" color="#00BFFF" height={300} width={300}/>
+              </div>
     }
   }
 }
