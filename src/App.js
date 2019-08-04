@@ -7,7 +7,7 @@ import Loader from 'react-loader-spinner'
 
 // removes cors error
 const proxyurl = "https://cors-anywhere.herokuapp.com/";
-let SalesLoft_API_TOKEN = process.env.REACT_APP_TOKEN;
+let SalesLoft_API_TOKEN = process.env.REACT_APP_SalesLoft_API_TOKEN;
 let SalesLoftURL = 'https://api.salesloft.com/v2/people.json'
 const AuthStr = 'Bearer ' + SalesLoft_API_TOKEN;
 
