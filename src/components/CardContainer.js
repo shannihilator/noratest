@@ -6,8 +6,8 @@ function Card(props) {
     // hash table to hold email letters and counts
     const hash = {}
 
-    // grabbing letters in  email before the @ 
-    let email = person.email_address.split("@")[0];
+    // grabbing letters from email 
+    let email = person.email_address;
 
     // looping  through and adding the count for the letters
     for(let i = 0; i < email.length; i++) {
