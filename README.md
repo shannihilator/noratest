@@ -8,9 +8,9 @@
     emails and job titles of each person. 
     
     You can also click the "Show Count" button to view a list the top three 
-    letters in the email with the highest count!
-    
-    View the live application [here](https://agitated-roentgen-fb5729.netlify.com/)
+    letters in the email with the highest counts
+ 
+   [Support Engineer Live App](https://agitated-roentgen-fb5729.netlify.com/)
 
 ## About
     
