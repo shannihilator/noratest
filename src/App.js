@@ -4,6 +4,7 @@ import './App.css';
 import axios from 'axios'
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import Loader from 'react-loader-spinner'
+import AppBar  from  './components/AppBar';
 
 // removes cors error
 const proxyurl = "https://cors-anywhere.herokuapp.com/";
@@ -42,13 +43,16 @@ class App extends Component {
     const {data, metadata} = this.state.people;
     if (data) {
       return (
+        <>
+        <AppBar />
         <div className="cardContainer">
           <button onClick={(e) => this.handleClick(e)} className="btn">Show Count</button>
           {data.map(person => {
               return <Card key={person.id} person={person} show={this.state.show}/>
           })}
         </div>
-        
+        <AppBar/>
+        </>  
     )
     } else {
 //       loader while api call is being made
