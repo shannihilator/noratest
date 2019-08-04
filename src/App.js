@@ -44,7 +44,6 @@ class App extends Component {
       return (
         <div className="cardContainer">
           <button onClick={(e) => this.handleClick(e)} className="btn">Show Count</button>
-//     mapping through peoples array and creating a card 
           {data.map(person => {
               return <Card key={person.id} person={person} show={this.state.show}/>
           })}
