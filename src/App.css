@@ -84,6 +84,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .header a {
@@ -92,8 +93,10 @@
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .header a:hover{
   color: lightgreen;
+  cursor: pointer;
 }
