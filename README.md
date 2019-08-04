@@ -10,7 +10,9 @@
     You can also click the "Show Count" button to view a list the top three 
     letters in the email with the highest counts
  
-   [Support Engineer Live App](https://agitated-roentgen-fb5729.netlify.com/)
+   
+   <a href="https://agitated-roentgen-fb5729.netlify.com/" target="_blank">Support Engineer Live App</a>
+
 
 ## About
     
