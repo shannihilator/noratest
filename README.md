@@ -2,7 +2,12 @@
 
 # Support Engineer Web App
     
-## ENV Variables Needed:
+    Welcome to my SalesLoft Support Engineer Web App
+    
+    This Web App is pulling data from the SalesLoft API and displaying the names, emails and job titles of each person. You can also click the "Show Count" button to view a list the top three letters with the highest count!
+    
+## In order to run this application locally you will need following:
+### ENV Variables Needed:
     REACT_APP_TOKEN
 
 In the project directory, you can run:
