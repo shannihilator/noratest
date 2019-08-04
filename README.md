@@ -4,7 +4,11 @@
     
     Welcome to my SalesLoft Support Engineer Web App
     
-    This Web App is pulling data from the SalesLoft API and displaying the names, emails and job titles of each person. You can also click the "Show Count" button to view a list the top three letters with the highest count!
+    This Web App is pulling data from the SalesLoft API and displaying the names, 
+    emails and job titles of each person. 
+    
+    You can also click the "Show Count" button to view a list the top three 
+    letters with the highest count!
     
     View the live application here: https://agitated-roentgen-fb5729.netlify.com/
 
