@@ -10,7 +10,9 @@
 
 ## About
     
-    This application was built using ReactJS. ReactJS allows us to build reusable and complex UI components that bring together a complete application. You will find comments within the code detailing my though process while building this application. 
+    This application was built using ReactJS. 
+    ReactJS allows us to build reusable and complex UI components that bring together a complete application. 
+    You will find comments within the code detailing my though process while building this application. 
     
 ## In order to run this application locally you will need following:
 ### ENV Variables Needed:
